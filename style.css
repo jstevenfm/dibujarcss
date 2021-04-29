@@ -1,0 +1,161 @@
+:root {
+  --background: #69A7FF;
+  --outline: #404242;
+  --panel: #CBC9C2;
+  --base: #8F8F8B;
+  --white: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+html {
+  background: var(--background);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.contour {
+  border: 10px solid var(--outline);
+  border-radius: 15px;
+  width: 200px;
+  height: 125px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+.contour-down {
+  background: var(--outline);
+  width: 200px;
+  height: 12px;
+  position: absolute;
+  top: 174px;
+  left: 100px;
+}
+.screen {
+  background: var(--background);
+  width: 181px;
+  height: 106px;
+  position: absolute;
+  top: 69px;
+  left: 110px;
+}
+.screen-shadow {
+  background: rgba(0, 0, 0, 1);
+  opacity: 0.3;
+  width: 10px;
+  height: 106px;
+  position: absolute;
+  top: 69px;
+  left: 282px;
+}
+.table {
+  background: var(--panel);
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 185px;
+  left: 100px;
+}
+.table-top {
+  background: var(--panel);
+  width: 200px;
+  height: 10px;
+  position: absolute;
+  top: 185px;
+  left: 100px;
+}
+.button {
+  background: var(--white);
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 200px;
+  left: 195px;
+}
+.monitor-shadow {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.3;
+  border-radius: 15px;
+  width: 200px;
+  height: 165px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+.monitor-shadow-light {
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.4;
+  border-radius: 15px;
+  width: 191px;
+  height: 165px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+.base-stick {
+  background: var(--base);
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  top: 225px;
+  left: 185px;
+}
+.base-stick-shadow {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.3;
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  top: 225px;
+  left: 205px;
+}
+.base {
+  background: var(--panel);
+  border-radius: 5px;
+  width: 60px;
+  height: 10px;
+  position: absolute;
+  top: 255px;
+  left: 170px;
+}
+.base-shadow {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.3;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 255px;
+  left: 220px;
+}
+.base-down {
+  background: var(--panel);
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: 260px;
+  left: 170px;
+}
+.base-down-shadow {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.3;
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  top: 260px;
+  left: 220px;
+}
